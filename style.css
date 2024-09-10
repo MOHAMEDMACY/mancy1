@@ -1,0 +1,79 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient( to right,#01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    height: 640px;
+    background-position: center;
+    background-image: 
+    linear-gradient(to right,#01022de5,#000000b0),
+    url(imags/176c7aea-7c28-4a35-b0f4-24f1c9b1ed2c.jpg);
+    background-repeat: no-repeat;
+}
+.container:hover{
+    background-image: 
+    linear-gradient(to right,#01022de5,transparent),
+    url(imags/176c7aea-7c28-4a35-b0f4-24f1c9b1ed2c.jpg);
+   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+font-size: 30px;
+text-transform: uppercase;
+}
+ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: #ffffff;
+}
+.content{
+    color: #ffffff;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content h2{
+    font-size: 100px;
+}
+.content p{
+    letter-spacing: 3px;
+    width: 350px;
+    padding: 20px 0;
+}
+.contten button{
+    font-size: 300px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.content button:hover{
+    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+}
